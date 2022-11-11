@@ -8,6 +8,6 @@ register_locale("tg", name: "Tajik", nativeName: "тоҷикӣ", fallbackLocale:
 
 after_initialize do
     if defined? DiscourseTranslator::Google::SUPPORTED_LANG_MAPPING
-      DiscourseTranslator::Google::SUPPORTED_LANG_MAPPING[:mk] = "tg"
+      DiscourseTranslator::Google::SUPPORTED_LANG_MAPPING[:tg] = "tg"
     end
   end
