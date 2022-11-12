@@ -1,8 +1,8 @@
-# name: discourse-mk--locale
-# about: Adds a new locale for Uzbek
+# name: discourse-tg-locale
+# about: Adds a new locale for Tajik
 # version: 0.1
 # authors: Terzaghi Riccardo
-# url: https://github.com/richterzo/discourse-macedonian
+# url: https://github.com/richterzo/discourse-tajik
 
 register_locale("tg", name: "Tajik", nativeName: "тоҷикӣ", fallbackLocale: "en_GB")
 
